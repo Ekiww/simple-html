@@ -1,0 +1,97 @@
+/* Mengatur tampilan body agar elemen di dalamnya terpusat */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f4f4f4 25%, #e0e0e0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Mengatur tampilan container */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek hover untuk container */
+.container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Mengatur tampilan judul */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Mengatur label pada form */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Mengatur input dan select */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek hover dan fokus pada input dan select */
+input:focus, select:focus {
+    outline: none;
+    border-color: #218838;
+    box-shadow: 0px 0px 8px rgba(33, 136, 56, 0.4);
+}
+
+/* Mengatur tampilan tombol */
+button {
+    background-color: #463E3F;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efek hover pada tombol */
+button:hover {
+    background-color: #5C5858;
+    transform: translateY(-3px);
+}
+
+/* Efek ketika tombol diklik */
+button:active {
+    transform: translateY(0);
+}
+
+/* Mengatur tampilan teks hasil perhitungan */
+h2 {
+    color: #555;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}

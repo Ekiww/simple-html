@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Penentu Diskon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplikasi Penentu Diskon</h1>
+
+        <label for="kategori">Kategori Produk:</label>
+        <select id="kategori">
+            <option value="elektronik">Elektronik</option>
+            <option value="pakaian">Pakaian</option>
+            <option value="makanan">Makanan</option>
+        </select>
+
+        <label for="harga">Total Harga Pembelian (Rp):</label>
+        <input type="number" id="harga" placeholder="Masukkan harga">
+
+        <button onclick="hitungHarga()">Hitung Diskon</button>
+
+        <h2 id="hasil"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
